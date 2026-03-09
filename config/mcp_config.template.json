@@ -1,0 +1,19 @@
+{
+    "mcpServers": {
+        "google-workspace-mcp": {
+            "command": "/Users/YOUR_USER/.local/bin/uvx",
+            "args": [
+                "workspace-mcp",
+                "--tool-tier",
+                "core"
+            ],
+            "env": {
+                "OAUTHLIB_INSECURE_TRANSPORT": "1",
+                "GOOGLE_CLIENT_SECRET_PATH": "/Users/YOUR_USER/.google_workspace_mcp/client_secret.json",
+                "GOOGLE_OAUTH_CLIENT_ID": "YOUR_CLIENT_ID",
+                "GOOGLE_OAUTH_CLIENT_SECRET": "YOUR_CLIENT_SECRET"
+            },
+            "disabled": false
+        }
+    }
+}

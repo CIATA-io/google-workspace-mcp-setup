@@ -1,0 +1,13 @@
+# Credentials (never commit these)
+client_secret*.json
+*_token.json
+credentials/
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# OS
+.DS_Store
